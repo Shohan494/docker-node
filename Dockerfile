@@ -4,7 +4,7 @@ FROM node:alpine
 # Specifying the work directory and copying contents
 
 WORKDIR /usr/app
-COPY ./ /usr/app
+COPY ./ ./
 
 #Install some dependencies
 
